@@ -21,7 +21,7 @@ export class Binary {
     addArguments(...var_args: string[]): void;
 
     /**
-     * Launches Firefox and eturns a promise that will be fulfilled when the process
+     * Launches Firefox and returns a promise that will be fulfilled when the process
      * terminates.
      * @param {string} profile Path to the profile directory to use.
      * @return {!promise.Promise.<!exec.Result>} A promise for the process result.
